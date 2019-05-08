@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<hmtl>
+
+    <head>
+        <title>FORMULARIO</title>
+        <meta charset="utf8">
+        <link href="formu.css" rel="stylesheet">
+        <link href="neko.ico" rel="shorcut icon" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="titulo">FORMULARIO DE REGISTROS</h1>
+        </header>
+
+        <form method="post" action="/action_page.php" name="formulario" id="formulario" onsubmit="return validar();"><br>
+            <!--hola-->
+            Nombre: <input type="text" name="Nombre" id="Nombre" onchange="return nomyape(this.value);"><br>
+            <!--hola-->
+            Apellido: <input type="text" name="Apellido" id="Apellido" onchange="return nomyape(this.value);"><br>
+            <!--hola-->
+            Telefono: <input type="tel" size="9" maxlength="9" name="telefono" id="telefono"><br>
+            <!--hola-->
+            Edad:<input type="number" name="edad" id="edad"><br>
+            <!--hola-->
+            Contraseña: <input type="password" name="pass" id="pass" maxlength="6" size="6"><br>
+            <!--hola-->
+            email: <input type="text" name="email" id="email"><br>
+
+            <div id="genero" name="genero">genero:<br>
+                <input type="radio" name="sexo" id="sexo" value="Hombre">Hombre<br>
+                <input type="radio" name="sexo" id="sexo" value="Mujer">Mujer<br>
+            </div>
+            <label name="departament">DEPARTAMENTOS: </label>
+            <select id="departamentos" size="1">
+                <option value="null"></option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Anchash">Anchash</option>
+                <option value="Apurimac">Apurimac</option>
+                <option value="Arequipa">Arequipa</option>
+                <option value="Ayacucho">Ayacucho</option>
+                <option value="Cajamarca">Cajamarca</option>
+                <option value="Callao">Callao</option>
+                <option value="Cusco">Cusco</option>
+                <option value="Huancavelica">Huancavelica</option>
+                <option value="Ica">Ica</option>
+                <option value="Junin">Junin</option>
+                <option value="Libertad">La Libertad</option>
+                <option value="Lambayeque">Lambayeque</option>
+                <option value="Lima">Lima</option>
+                <option value="Loreto">Loreto</option>
+                <option value="MDios">Madre de Dios</option>
+                <option value="Moquegua">Moquegua</option>
+                <option value="Pasco">Pasco</option>
+                <option value="Piura">Piura</option>
+                <option value="SanMartin">San Martin</option>
+                <option value="Tacna">Tacna</option>
+                <option value="Tumbes">Tumbes</option>
+                <option value="Ucayali">Ucayali</option>
+                <option value="Default">Elija su ciudad...</option>
+
+
+            </select>
+            <br>
+
+            <!--<input type="button" value="cerrar" onclick="window.close();"><br>-->
+            <br>
+            <div>
+                Opcional:
+                <textarea name="comentarios" id="comentarios" rows="5" cols="30">--ingrese su comentario--</textarea>
+            </div>
+            <!--<input type="label" value="correcto">
+            <input type="checkbox" name="c1" value="1" onclick="if(this.checked == true){alert('verdadero!');this.checked=false;}">
+
+            <input type="label" value="falso">
+            <input type="checkbox" name="c2" value="0" onclick="if(this.checked == true){alert('falso!');this.checked=false;}">-->
+            <br>
+            <div>
+                <input type="checkbox" name="noti" id="noti">Desea conocer notificaciones
+            </div>
+            <br>
+            <input type="reset"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <script src="formu.js"></script>
+
+    </body>
+</hmtl>

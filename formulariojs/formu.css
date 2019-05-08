@@ -1,0 +1,50 @@
+#titulo {
+    margin: 0px 500px;
+}
+
+#formulario {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3), inset 0px 1px 0px rgba(255, 255, 255, 0.07)
+}
+
+body {
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/41609wide.jpg);
+    color: yellow;
+    text-shadow: 4px 10px 10px yellow;
+}
+
+#Nombre,
+#Apellido,
+#telefono,
+#edad,
+#pass,
+#email,
+#departamentos,
+#comentarios {
+    background-color: transparent;
+}
+
+#Nombre,
+#Apellido,
+#telefono,
+#edad,
+#pass,
+#email {
+    width: 250px;
+    position: center;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    padding: 0px 10px;
+    margin: 10px 80px;
+    background-color: #AF3E1A;
+    text-align: center;
+}
