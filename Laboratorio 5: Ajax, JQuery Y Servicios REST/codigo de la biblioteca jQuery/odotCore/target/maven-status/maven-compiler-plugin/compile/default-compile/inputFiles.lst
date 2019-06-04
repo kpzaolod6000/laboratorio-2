@@ -1,0 +1,11 @@
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/model/Category.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/config/DatabaseConfiguration.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/service/ItemService.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/dao/CategoryDao.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/dao/ItemDao.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/model/AbstractEntity.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/model/Item.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/config/AbstractApplicationConfiguration.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/exception/ServiceException.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/service/CategoryService.java
+/home/linux/TRABAJOS_UNSA/eclipse_con_java/springbootdemo/odotCore/src/main/java/com/makotojava/learn/odot/exception/EntityPersistenceException.java
